@@ -28,72 +28,72 @@ var compare = function(choice1, choice2) {
     }
     else if (choice1 === "rock") {
         if (choice2 === "scissors") {
-            return "rock wins";
+            return "Rock breaks scissors, rock wins";
         }
         else if (choice2 === "lizard") {
-            return "rock wins";
+            return "Rock crushes lizard, rock wins";
         }
         else if (choice2 === "spock") {
-            return "spock wins";
+            return "Spock vaporizes rock, spock wins";
         }
         else {
-            return "paper wins";
+            return "Paper covers rock, paper wins";
         }
     }
     else if (choice1 === "paper") {
         if (choice2 === "rock") {
-            return "paper wins";
+            return "Paper covers rock, paper wins";
         }
         else if (choice2 === "lizard") {
-            return "lizard wins";
+            return "Lizard eats paper, lizard wins";
         }
         else if (choice2 === "spock") {
-            return "paper wins";
+            return "Paper disproves spock, paper wins";
         }
         else {
-            return "scissors wins";
+            return "Scissors cuts paper, scissors wins";
         }
     }
     else if (choice1 === "scissors") {
         if (choice2 === "rock") {
-            return "rock wins";
+            return "Rock breaks scissors, rock wins";
         }
         else if (choice2 === "lizard") {
-            return "scissors wins";
+            return "Scissors decapitates lizard, scissors wins";
         }
         else if (choice2 === "spock") {
-            return "spock wins";
+            return "Spock smashes scissors, spock wins";
         }
         else {
-            return "scissors wins";
+            return "Scissors cuts paper, scissors wins";
         }
     }
     else if (choice1 === "lizard") {
         if (choice2 === "rock") {
-            return "rock wins";
+            return "Rock crushes lizard, rock wins";
         }
         else if (choice2 === "paper") {
-            return "lizard wins";
+            return "Lizard eats paper, lizard wins";
         }
         else if (choice2 === "spock") {
-            return "lizard wins";
+            return "Lizard poisons spock, lizard wins";
         }
         else {
-            return "scissors wins";
+            return "Scissors decapitates lizard, scissors wins";
         }
     }
     else if (choice1 === "spock") {
         if (choice2 === "rock") {
-            return "spock wins";
+            return "Spock vaporizes rock, spock wins";
         }
         else if (choice2 === "lizard") {
-            return "lizard wins";
+            return "Lizard poisons spock, lizard wins";
         }
         else if (choice2 === "paper") {
-            return "paper wins";
+            return "Paper disproves spock, paper wins";
         }
         else {
-            return "spock wins";
+            return "Spock smashes scissors, spock wins";
         }
     }
 };
