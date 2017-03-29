@@ -1,1 +1,1 @@
-Play a game of "Rock, paper, scissors, lizard, spock"!  :)
+Play a game of "Rock, paper, scissors, lizard, spock"! (https://jwhear93.github.io/Rock-paper-scissors-lizard-spock/) :)
